@@ -1,0 +1,24 @@
+{
+  "name": "mern-blog-backend",
+  "version": "1.0.0",
+  "description": "Mern blog backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start" : "node src/server.js",
+    "dev": "npx nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khaing Wyut Hmone",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.6.0",
+    "mongodb": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
